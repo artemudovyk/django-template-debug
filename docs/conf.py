@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Sator documentation build configuration file, created by
 # sphinx-quickstart on Sun Jan 15 14:11:21 2012.
@@ -11,7 +10,8 @@
 # All configuration values have a default; values that are commented out
 # serve to show the default.
 
-import sys, os
+import sys
+import os
 
 extensions = ['autodoc']
 
