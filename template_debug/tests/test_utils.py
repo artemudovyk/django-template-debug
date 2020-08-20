@@ -5,13 +5,6 @@ from template_debug.utils import (_flatten, get_variables, get_details,
     is_valid_in_template, get_attributes)
 
 
-try:
-    from django.utils.six import PY3
-except ImportError:
-    range = xrange
-    PY3 = False
-
-
 class FlattenTestCase(TemplateDebugTestCase):
     """TestCase for _flatten"""
 

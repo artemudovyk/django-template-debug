@@ -4,13 +4,6 @@ from template_debug.tests.base import TemplateDebugTestCase
 from template_debug.templatetags.debug_tags import require_template_debug
 
 
-try:
-    from django.utils.six import PY3
-except ImportError:
-    range = xrange
-    PY3 = False
-
-
 @require_template_debug
 def test_func():
     return 'test string'
