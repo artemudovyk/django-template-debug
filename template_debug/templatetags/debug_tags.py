@@ -2,8 +2,6 @@
 Template tags that aid in common debugging scenarios.
 """
 
-from __future__ import unicode_literals
-
 from pprint import pprint
 
 from django.conf import settings
