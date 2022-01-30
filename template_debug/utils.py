@@ -1,5 +1,5 @@
 from functools import partial
-from collections import Iterable
+from collections.abc import Iterable
 from inspect import getargspec, isroutine
 
 
